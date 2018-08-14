@@ -6,7 +6,7 @@ describe Euler2 do
     @euler2 = Euler2.new
   end
 
-  it "should correctly store the sum of all multiples of 3 & 5" do
+  it "should correctly produce the sum of all even fibonnaci numbers before 4,000,000" do
 expect(@euler2.fibsum).to eq(4613732)
   end
 
